@@ -1,0 +1,32 @@
+div.content{
+    width: 700px;
+}
+
+.d-table{
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.d-tr{
+    display: table-row;
+}
+
+.d-td{
+    display: table-cell;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    vertical-align: middle;
+}
+
+.d-tr:nth-child(even) {
+    background: #0a07ff;
+}
+
+.d-td:nth-child(1) {
+    width: 150px;
+}
+
+.d-td:nth-child(3n+3) {
+    background: #47a854;
+}
